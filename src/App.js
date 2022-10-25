@@ -1,10 +1,12 @@
 import './App.css';
-import HooksPersonalizados from './components/HooksPersonalizados';
+import EjemploUseBoolean from './components/EjemploUseBoolean';
+//import HooksPersonalizados from './components/HooksPersonalizados';
 
 function App() {
   return (
     <div className="App">
-      <HooksPersonalizados/>
+      {/* <HooksPersonalizados /> */}
+      <EjemploUseBoolean />
     </div>
   );
 }
