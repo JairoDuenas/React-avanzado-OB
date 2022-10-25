@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import { NombresAleatorios } from './components/Ejemplo';
+import HooksPersonalizados from './components/HooksPersonalizados';
 
 function App() {
   return (
     <div className="App">
-      <NombresAleatorios/>
+      <HooksPersonalizados/>
     </div>
   );
 }
